@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="GauKML" id="GauKML">
+	<SimpleField name="ID" type="float"></SimpleField>
+	<SimpleField name="LONGITUDE" type="float"></SimpleField>
+	<SimpleField name="LATITUDE" type="float"></SimpleField>
+	<SimpleField name="Long" type="float"></SimpleField>
+	<SimpleField name="Lat" type="float"></SimpleField>
+</Schema>
+<Folder><name>GauKML</name>
+  <Placemark>
+	<name>Sandton Station</name>
+	<ExtendedData><SchemaData schemaUrl="#GauKML">
+		<SimpleData name="ID">1</SimpleData>
+		<SimpleData name="LONGITUDE">28057093</SimpleData>
+		<SimpleData name="LATITUDE">-26108444</SimpleData>
+		<SimpleData name="Long">28.05691969456</SimpleData>
+		<SimpleData name="Lat">-26.10838065119</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>28.0569196945593,-26.1083806511919</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Marlboro Station</name>
+	<ExtendedData><SchemaData schemaUrl="#GauKML">
+		<SimpleData name="ID">2</SimpleData>
+		<SimpleData name="LONGITUDE">28111108</SimpleData>
+		<SimpleData name="LATITUDE">-26083504</SimpleData>
+		<SimpleData name="Long">28.11165144090</SimpleData>
+		<SimpleData name="Lat">-26.08335344348</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>28.1116514408968,-26.0833534434831</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>O R Tambo International Airport Station</name>
+	<ExtendedData><SchemaData schemaUrl="#GauKML">
+		<SimpleData name="ID">3</SimpleData>
+		<SimpleData name="LONGITUDE">28232055</SimpleData>
+		<SimpleData name="LATITUDE">-26133492</SimpleData>
+		<SimpleData name="Long">28.23027816692</SimpleData>
+		<SimpleData name="Lat">-26.13200618171</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>28.2302781669226,-26.1320061817066</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Midrand Station</name>
+	<ExtendedData><SchemaData schemaUrl="#GauKML">
+		<SimpleData name="ID">4</SimpleData>
+		<SimpleData name="LONGITUDE">28135615</SimpleData>
+		<SimpleData name="LATITUDE">-25992427</SimpleData>
+		<SimpleData name="Long">28.13541450346</SimpleData>
+		<SimpleData name="Lat">-25.99573398243</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>28.1354145034557,-25.9957339824344</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hatfield Station</name>
+	<ExtendedData><SchemaData schemaUrl="#GauKML">
+		<SimpleData name="ID">5</SimpleData>
+		<SimpleData name="LONGITUDE">28236054</SimpleData>
+		<SimpleData name="LATITUDE">-25748244</SimpleData>
+		<SimpleData name="Long">28.23783861702</SimpleData>
+		<SimpleData name="Lat">-25.74778461145</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>28.2378386170248,-25.7477846114541</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pretoria Station</name>
+	<ExtendedData><SchemaData schemaUrl="#GauKML">
+		<SimpleData name="ID">6</SimpleData>
+		<SimpleData name="LONGITUDE">28190963</SimpleData>
+		<SimpleData name="LATITUDE">-25760197</SimpleData>
+		<SimpleData name="Long">28.19043525564</SimpleData>
+		<SimpleData name="Lat">-25.75950408558</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>28.190435255641,-25.7595040855843</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Centurion Station</name>
+	<ExtendedData><SchemaData schemaUrl="#GauKML">
+		<SimpleData name="ID">7</SimpleData>
+		<SimpleData name="LONGITUDE">28190003</SimpleData>
+		<SimpleData name="LATITUDE">-25852365</SimpleData>
+		<SimpleData name="Long">28.18963505079</SimpleData>
+		<SimpleData name="Lat">-25.85189200144</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>28.1896350507927,-25.8518920014368</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Rhodesfield Station</name>
+	<ExtendedData><SchemaData schemaUrl="#GauKML">
+		<SimpleData name="ID">8</SimpleData>
+		<SimpleData name="LONGITUDE">28226234</SimpleData>
+		<SimpleData name="LATITUDE">-26128150</SimpleData>
+		<SimpleData name="Long">28.22455961967</SimpleData>
+		<SimpleData name="Lat">-26.12725048585</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>28.2245596196746,-26.1272504858521</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Rosebank Station</name>
+	<ExtendedData><SchemaData schemaUrl="#GauKML">
+		<SimpleData name="ID">9</SimpleData>
+		<SimpleData name="LONGITUDE">28044643</SimpleData>
+		<SimpleData name="LATITUDE">-26148273</SimpleData>
+		<SimpleData name="Long">28.04411447551</SimpleData>
+		<SimpleData name="Lat">-26.14520799437</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>28.0441144755118,-26.1452079943743</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Park Station</name>
+	<ExtendedData><SchemaData schemaUrl="#GauKML">
+		<SimpleData name="ID">10</SimpleData>
+		<SimpleData name="LONGITUDE">28041632</SimpleData>
+		<SimpleData name="LATITUDE">-26197030</SimpleData>
+		<SimpleData name="Long">28.04212028354</SimpleData>
+		<SimpleData name="Lat">-26.19476683968</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>28.042120283541,-26.1947668396824</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
