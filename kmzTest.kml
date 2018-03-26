@@ -3,12 +3,27 @@
     <Document>
         <NetworkLink>
             <Link>
-                <href>https://raw.githubusercontent.com/zschyff/KMLtest/master/Gau.kml</href>
+                <href>https://raw.githubusercontent.com/zschyff/KMLtest/master/GauPart1.kml</href>
             </Link>
         </NetworkLink>
         <NetworkLink>
             <Link>
-                <href>https://raw.githubusercontent.com/zschyff/KMLtest/master/MetrobusRoutes.kml</href>
+                <href>https://raw.githubusercontent.com/zschyff/KMLtest/master/GauPart2.kml</href>
+            </Link>
+        </NetworkLink>
+		<NetworkLink>
+            <Link>
+                <href>https://raw.githubusercontent.com/zschyff/KMLtest/master/GauPart3.kml</href>
+            </Link>
+        </NetworkLink>
+		<NetworkLink>
+            <Link>
+                <href>https://raw.githubusercontent.com/zschyff/KMLtest/master/GauPart4.kml</href>
+            </Link>
+        </NetworkLink>
+		<NetworkLink>
+            <Link>
+                <href>https://raw.githubusercontent.com/zschyff/KMLtest/master/GauPart5.kml</href>
             </Link>
         </NetworkLink>
     </Document>
