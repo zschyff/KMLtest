@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
-    <Folder>
+<Document id="root_doc">
+    <Folder >
         <NetworkLink>
             <Link>
                 <href>https://raw.githubusercontent.com/zschyff/KMLtest/master/JHB_BindingKML_part2.kml</href>
@@ -47,4 +48,5 @@
             </Link>
         </NetworkLink>
     </Folder>
+	</Document>
 </kml>
