@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Folder><name>5</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>28.0372830357138,-26.2017877243584 28.0374392400397,-26.2017698759389 28.0374667426536,-26.2017666925789 28.0374884258262,-26.2019209108023 28.0374032712895,-26.2020736294789 28.0373243964888,-26.2020826267598 28.0372830357138,-26.2017877243584</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
