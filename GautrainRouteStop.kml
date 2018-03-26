@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Folder><name>GautrainRouteStop</name>
+  <Placemark>
+	<name>Sandton Station</name>
+      <Point><coordinates>28.0569196945593,-26.1083806511919</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Marlboro Station</name>
+      <Point><coordinates>28.1116514408968,-26.0833534434831</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>O R Tambo International Airport Station</name>
+      <Point><coordinates>28.2302781669226,-26.1320061817066</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Midrand Station</name>
+      <Point><coordinates>28.1354145034557,-25.9957339824344</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hatfield Station</name>
+      <Point><coordinates>28.2378386170248,-25.7477846114541</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pretoria Station</name>
+      <Point><coordinates>28.190435255641,-25.7595040855843</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Centurion Station</name>
+      <Point><coordinates>28.1896350507927,-25.8518920014368</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Rhodesfield Station</name>
+      <Point><coordinates>28.2245596196746,-26.1272504858521</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Rosebank Station</name>
+      <Point><coordinates>28.0441144755118,-26.1452079943743</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Park Station</name>
+      <Point><coordinates>28.042120283541,-26.1947668396824</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
