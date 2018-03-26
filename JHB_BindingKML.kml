@@ -3,6 +3,11 @@
     <Document>
         <NetworkLink>
             <Link>
+                <href>https://raw.githubusercontent.com/zschyff/KMLtest/master/JHB_BindingKML_part2.kml</href>
+            </Link>
+        </NetworkLink>
+        <NetworkLink>
+            <Link>
                 <href>https://raw.githubusercontent.com/zschyff/KMLtest/master/JHB_Part1.kml</href>
             </Link>
         </NetworkLink>
@@ -39,11 +44,6 @@
         <NetworkLink>
             <Link>
                 <href>https://raw.githubusercontent.com/zschyff/KMLtest/master/JHB_Part8.kml</href>
-            </Link>
-        </NetworkLink>
-        <NetworkLink>
-            <Link>
-                <href>https://raw.githubusercontent.com/zschyff/KMLtest/master/JJHB_Part9.kml</href>
             </Link>
         </NetworkLink>
     </Document>
