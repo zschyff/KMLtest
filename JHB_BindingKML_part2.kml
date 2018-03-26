@@ -3,7 +3,22 @@
     <Document>
         <NetworkLink>
             <Link>
-                <href>https://raw.githubusercontent.com/zschyff/KMLtest/master/GauPart1.kml</href>
+                <href>https://raw.githubusercontent.com/zschyff/KMLtest/master/JHB_Part9.kml</href>
+            </Link>
+        </NetworkLink>
+        <NetworkLink>
+            <Link>
+                <href>https://raw.githubusercontent.com/zschyff/KMLtest/master/JHB_Part10.kml</href>
+            </Link>
+        </NetworkLink>
+        <NetworkLink>
+            <Link>
+                <href>https://raw.githubusercontent.com/zschyff/KMLtest/master/JHB_Part11.kml</href>
+            </Link>
+        </NetworkLink>
+        <NetworkLink>
+            <Link>
+                <href>https://raw.githubusercontent.com/zschyff/KMLtest/master/JHB_Part12.kml</href>
             </Link>
         </NetworkLink>
     </Document>

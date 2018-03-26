@@ -43,11 +43,6 @@
         </NetworkLink>
         <NetworkLink>
             <Link>
-                <href>https://raw.githubusercontent.com/zschyff/KMLtest/master/JHB_Part9.kml</href>
-            </Link>
-        </NetworkLink>
-        <NetworkLink>
-            <Link>
                 <href>https://raw.githubusercontent.com/zschyff/KMLtest/master/JHB_BindingKML_part2.kml</href>
             </Link>
         </NetworkLink>
