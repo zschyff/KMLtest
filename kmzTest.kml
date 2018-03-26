@@ -3,12 +3,12 @@
     <Document>
         <NetworkLink>
             <Link>
-                <href>https://raw.githubusercontent.com/zschyff/KMLtest/master/GautrainRoute.kml</href>
+                <href>https://raw.githubusercontent.com/zschyff/KMLtest/master/Gau.kml</href>
             </Link>
         </NetworkLink>
         <NetworkLink>
             <Link>
-                <href>https://raw.githubusercontent.com/zschyff/KMLtest/master/GautrainRoute.kml</href>
+                <href>https://raw.githubusercontent.com/zschyff/KMLtest/master/MetrobusRoutes.kml</href>
             </Link>
         </NetworkLink>
     </Document>
