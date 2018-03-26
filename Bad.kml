@@ -7190,5 +7190,10 @@
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
       <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>28.0491229775049,-26.2099553408969 28.049438298815,-26.2099712818874 28.0494187133837,-26.2103070231351 28.0489438241326,-26.2102813285091 28.0489631869295,-26.2099475224834 28.0491229775049,-26.2099553408969</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
   </Placemark>
+	<NetworkLink>
+	<Link>
+        <href>https://raw.githubusercontent.com/zschyff/KMLtest/master/GautrainRoute.kml</href>
+      </Link>
+		</NetworkLink>
 </Folder>
 </Document></kml>
