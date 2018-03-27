@@ -1,25 +1,25 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis maxScale="0" readOnly="0" simplifyDrawingTol="1" labelsEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" minScale="1e+8" simplifyAlgorithm="0" simplifyDrawingHints="1" version="3.0.0-Girona" simplifyLocal="1">
-  <renderer-v2 forceraster="0" enableorderby="0" type="singleSymbol" symbollevels="0">
+<qgis version="3.0.0-Girona" labelsEnabled="0" readOnly="0" maxScale="0" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyDrawingTol="1" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" minScale="1e+8" simplifyDrawingHints="1">
+  <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
     <symbols>
-      <symbol name="0" type="fill" clip_to_extent="1" alpha="1">
-        <layer class="SimpleFill" enabled="1" locked="0" pass="0">
-          <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="color" v="255,1,18,255"/>
-          <prop k="joinstyle" v="bevel"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="255,35,35,255"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0.26"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="style" v="diagonal_x"/>
+      <symbol alpha="1" type="fill" name="0" clip_to_extent="1">
+        <layer enabled="1" locked="0" class="SimpleFill" pass="0">
+          <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+          <prop v="255,1,18,255" k="color"/>
+          <prop v="bevel" k="joinstyle"/>
+          <prop v="0,0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="MM" k="offset_unit"/>
+          <prop v="255,35,35,255" k="outline_color"/>
+          <prop v="solid" k="outline_style"/>
+          <prop v="0.26" k="outline_width"/>
+          <prop v="MM" k="outline_width_unit"/>
+          <prop v="diagonal_x" k="style"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option name="name" value="" type="QString"/>
+              <Option type="QString" value="" name="name"/>
               <Option name="properties"/>
-              <Option name="type" value="collection" type="QString"/>
+              <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
@@ -37,16 +37,17 @@
   <featureBlendMode>0</featureBlendMode>
   <layerOpacity>1</layerOpacity>
   <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
-    <DiagramCategory scaleDependency="Area" sizeType="MM" penColor="#000000" barWidth="5" scaleBasedVisibility="0" width="15" sizeScale="3x:0,0,0,0,0,0" maxScaleDenominator="1e+8" labelPlacementMethod="XHeight" minScaleDenominator="0" diagramOrientation="Up" minimumSize="0" rotationOffset="270" backgroundColor="#ffffff" enabled="0" penAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" opacity="1" height="15" backgroundAlpha="255" penWidth="0" lineSizeType="MM">
+    <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" scaleDependency="Area" labelPlacementMethod="XHeight" sizeType="MM" penColor="#000000" minScaleDenominator="0" rotationOffset="270" width="15" scaleBasedVisibility="0" opacity="1" penAlpha="255" lineSizeType="MM" minimumSize="0" backgroundColor="#ffffff" height="15" backgroundAlpha="255" maxScaleDenominator="1e+8" diagramOrientation="Up" barWidth="5" enabled="0" sizeScale="3x:0,0,0,0,0,0" penWidth="0">
       <fontProperties style="" description="MS Shell Dlg 2,8.1,-1,5,50,0,0,0,0,0"/>
+      <attribute field="" label="" color="#000000"/>
     </DiagramCategory>
   </SingleCategoryDiagramRenderer>
-  <DiagramLayerSettings zIndex="0" placement="0" linePlacementFlags="18" showAll="1" obstacle="0" priority="0" dist="0">
+  <DiagramLayerSettings priority="0" showAll="1" linePlacementFlags="18" placement="0" zIndex="0" dist="0" obstacle="0">
     <properties>
       <Option type="Map">
-        <Option name="name" value="" type="QString"/>
+        <Option type="QString" value="" name="name"/>
         <Option name="properties"/>
-        <Option name="type" value="collection" type="QString"/>
+        <Option type="QString" value="collection" name="type"/>
       </Option>
     </properties>
   </DiagramLayerSettings>
@@ -130,75 +131,75 @@
     </field>
   </fieldConfiguration>
   <aliases>
-    <alias name="" index="0" field="Name"/>
-    <alias name="" index="1" field="description"/>
-    <alias name="" index="2" field="timestamp"/>
-    <alias name="" index="3" field="begin"/>
-    <alias name="" index="4" field="end"/>
-    <alias name="" index="5" field="altitudeMode"/>
-    <alias name="" index="6" field="tessellate"/>
-    <alias name="" index="7" field="extrude"/>
-    <alias name="" index="8" field="visibility"/>
-    <alias name="" index="9" field="drawOrder"/>
-    <alias name="" index="10" field="icon"/>
+    <alias name="" field="Name" index="0"/>
+    <alias name="" field="description" index="1"/>
+    <alias name="" field="timestamp" index="2"/>
+    <alias name="" field="begin" index="3"/>
+    <alias name="" field="end" index="4"/>
+    <alias name="" field="altitudeMode" index="5"/>
+    <alias name="" field="tessellate" index="6"/>
+    <alias name="" field="extrude" index="7"/>
+    <alias name="" field="visibility" index="8"/>
+    <alias name="" field="drawOrder" index="9"/>
+    <alias name="" field="icon" index="10"/>
   </aliases>
   <excludeAttributesWMS/>
   <excludeAttributesWFS/>
   <defaults>
-    <default applyOnUpdate="0" expression="" field="Name"/>
-    <default applyOnUpdate="0" expression="" field="description"/>
-    <default applyOnUpdate="0" expression="" field="timestamp"/>
-    <default applyOnUpdate="0" expression="" field="begin"/>
-    <default applyOnUpdate="0" expression="" field="end"/>
-    <default applyOnUpdate="0" expression="" field="altitudeMode"/>
-    <default applyOnUpdate="0" expression="" field="tessellate"/>
-    <default applyOnUpdate="0" expression="" field="extrude"/>
-    <default applyOnUpdate="0" expression="" field="visibility"/>
-    <default applyOnUpdate="0" expression="" field="drawOrder"/>
-    <default applyOnUpdate="0" expression="" field="icon"/>
+    <default expression="" field="Name" applyOnUpdate="0"/>
+    <default expression="" field="description" applyOnUpdate="0"/>
+    <default expression="" field="timestamp" applyOnUpdate="0"/>
+    <default expression="" field="begin" applyOnUpdate="0"/>
+    <default expression="" field="end" applyOnUpdate="0"/>
+    <default expression="" field="altitudeMode" applyOnUpdate="0"/>
+    <default expression="" field="tessellate" applyOnUpdate="0"/>
+    <default expression="" field="extrude" applyOnUpdate="0"/>
+    <default expression="" field="visibility" applyOnUpdate="0"/>
+    <default expression="" field="drawOrder" applyOnUpdate="0"/>
+    <default expression="" field="icon" applyOnUpdate="0"/>
   </defaults>
   <constraints>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0" field="Name"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0" field="description"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0" field="timestamp"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0" field="begin"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0" field="end"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0" field="altitudeMode"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0" field="tessellate"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0" field="extrude"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0" field="visibility"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0" field="drawOrder"/>
-    <constraint constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0" field="icon"/>
+    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="Name" constraints="0"/>
+    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="description" constraints="0"/>
+    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="timestamp" constraints="0"/>
+    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="begin" constraints="0"/>
+    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="end" constraints="0"/>
+    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="altitudeMode" constraints="0"/>
+    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="tessellate" constraints="0"/>
+    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="extrude" constraints="0"/>
+    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="visibility" constraints="0"/>
+    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="drawOrder" constraints="0"/>
+    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="icon" constraints="0"/>
   </constraints>
   <constraintExpressions>
-    <constraint exp="" desc="" field="Name"/>
-    <constraint exp="" desc="" field="description"/>
-    <constraint exp="" desc="" field="timestamp"/>
-    <constraint exp="" desc="" field="begin"/>
-    <constraint exp="" desc="" field="end"/>
-    <constraint exp="" desc="" field="altitudeMode"/>
-    <constraint exp="" desc="" field="tessellate"/>
-    <constraint exp="" desc="" field="extrude"/>
-    <constraint exp="" desc="" field="visibility"/>
-    <constraint exp="" desc="" field="drawOrder"/>
-    <constraint exp="" desc="" field="icon"/>
+    <constraint desc="" exp="" field="Name"/>
+    <constraint desc="" exp="" field="description"/>
+    <constraint desc="" exp="" field="timestamp"/>
+    <constraint desc="" exp="" field="begin"/>
+    <constraint desc="" exp="" field="end"/>
+    <constraint desc="" exp="" field="altitudeMode"/>
+    <constraint desc="" exp="" field="tessellate"/>
+    <constraint desc="" exp="" field="extrude"/>
+    <constraint desc="" exp="" field="visibility"/>
+    <constraint desc="" exp="" field="drawOrder"/>
+    <constraint desc="" exp="" field="icon"/>
   </constraintExpressions>
   <attributeactions>
     <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
   </attributeactions>
-  <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+  <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
     <columns>
-      <column name="Name" hidden="0" type="field" width="-1"/>
-      <column name="description" hidden="0" type="field" width="-1"/>
-      <column name="timestamp" hidden="0" type="field" width="-1"/>
-      <column name="begin" hidden="0" type="field" width="-1"/>
-      <column name="end" hidden="0" type="field" width="-1"/>
-      <column name="altitudeMode" hidden="0" type="field" width="-1"/>
-      <column name="tessellate" hidden="0" type="field" width="-1"/>
-      <column name="extrude" hidden="0" type="field" width="-1"/>
-      <column name="visibility" hidden="0" type="field" width="-1"/>
-      <column name="drawOrder" hidden="0" type="field" width="-1"/>
-      <column name="icon" hidden="0" type="field" width="-1"/>
+      <column hidden="0" type="field" name="Name" width="-1"/>
+      <column hidden="0" type="field" name="description" width="-1"/>
+      <column hidden="0" type="field" name="timestamp" width="-1"/>
+      <column hidden="0" type="field" name="begin" width="-1"/>
+      <column hidden="0" type="field" name="end" width="-1"/>
+      <column hidden="0" type="field" name="altitudeMode" width="-1"/>
+      <column hidden="0" type="field" name="tessellate" width="-1"/>
+      <column hidden="0" type="field" name="extrude" width="-1"/>
+      <column hidden="0" type="field" name="visibility" width="-1"/>
+      <column hidden="0" type="field" name="drawOrder" width="-1"/>
+      <column hidden="0" type="field" name="icon" width="-1"/>
       <column hidden="1" type="actions" width="-1"/>
     </columns>
   </attributetableconfig>
@@ -226,17 +227,17 @@ def my_form_open(dialog, layer, feature):
   <featformsuppress>0</featformsuppress>
   <editorlayout>generatedlayout</editorlayout>
   <editable>
-    <field name="Name" editable="1"/>
-    <field name="altitudeMode" editable="1"/>
-    <field name="begin" editable="1"/>
-    <field name="description" editable="1"/>
-    <field name="drawOrder" editable="1"/>
-    <field name="end" editable="1"/>
-    <field name="extrude" editable="1"/>
-    <field name="icon" editable="1"/>
-    <field name="tessellate" editable="1"/>
-    <field name="timestamp" editable="1"/>
-    <field name="visibility" editable="1"/>
+    <field editable="1" name="Name"/>
+    <field editable="1" name="altitudeMode"/>
+    <field editable="1" name="begin"/>
+    <field editable="1" name="description"/>
+    <field editable="1" name="drawOrder"/>
+    <field editable="1" name="end"/>
+    <field editable="1" name="extrude"/>
+    <field editable="1" name="icon"/>
+    <field editable="1" name="tessellate"/>
+    <field editable="1" name="timestamp"/>
+    <field editable="1" name="visibility"/>
   </editable>
   <labelOnTop>
     <field name="Name" labelOnTop="0"/>
