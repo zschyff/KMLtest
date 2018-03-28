@@ -3,23 +3,13 @@
 <Document id="root_doc">
 
 <Style id="exampleStyleDocument">
-           <LineStyle>
-				<color>ff000000</color>
-				<width>1</width>
-		   </LineStyle>
-		<PolyStyle>
-		   <color>ff000000</color>
-		   </PolyStyle>
+           
 		    <IconStyle>
 		 <Icon>
 		 <href>https://github.com/zschyff/KMLtest/blob/master/Error.svg.png</href>
 		 </Icon>
 		 </IconStyle>
          </Style>
-		 
-		
-
-		 
 <Folder><name>Bad</name>
 
   <Placemark>
