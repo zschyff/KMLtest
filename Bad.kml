@@ -3,11 +3,15 @@
 <Document id="root_doc">
 
 <Style id="exampleStyleDocument">
-           <LabelStyle>
-           <color>01400FF</color>
-           </LabelStyle>
+           <LineStyle>
+				<color>FF0000ff</color>
+				<width>1.30393</width>
+		   </LineStyle>
+		<PolyStyle>
+		   <color>ffff0000</color>
+		   </PolyStyle>
          </Style>
-		 
+
 		 
 <Folder><name>Bad</name>
 
