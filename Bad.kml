@@ -10,13 +10,14 @@
 		<PolyStyle>
 		   <color>ff000000</color>
 		   </PolyStyle>
-         </Style>
-		 
-		 <IconStyle>
+		    <IconStyle>
 		 <Icon>
 		 <href>https://github.com/zschyff/KMLtest/blob/master/Error.svg.png</href>
 		 </Icon>
 		 </IconStyle>
+         </Style>
+		 
+		
 
 		 
 <Folder><name>Bad</name>
