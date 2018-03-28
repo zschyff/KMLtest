@@ -5,10 +5,10 @@
 <Style id="exampleStyleDocument">
            <LineStyle>
 				<color>FF0000ff</color>
-				<width>1.30393</width>
+				<width>1</width>
 		   </LineStyle>
 		<PolyStyle>
-		   <color>ffff0000</color>
+		   <color>0148EFF</color>
 		   </PolyStyle>
          </Style>
 
