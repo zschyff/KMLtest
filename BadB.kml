@@ -11,7 +11,6 @@
 		   </PolyStyle>
            <IconStyle>
                 <color>ff00ff00</color>
-				<shape>'circle'</shape>
                 <Icon>
                     <href>http://www.feedicons.com/images/feed-icon-28x28.png</href>
                 </Icon>                    
