@@ -2,6 +2,14 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
 <Style id="exampleStyleDocument">
+ <LineStyle>
+				<color>FF0000ff</color>
+				<width>1</width>
+		   </LineStyle>
+		<PolyStyle>
+		   <color>7f008cff</color>
+		   </PolyStyle>
+         </Style>
            <IconStyle>
                 <color>ff00ff00</color>
                 <Icon>
