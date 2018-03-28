@@ -4,11 +4,11 @@
 
 <Style id="exampleStyleDocument">
            <LineStyle>
-				<color>ff003977</color>
+				<color>ff000000</color>
 				<width>1</width>
 		   </LineStyle>
 		<PolyStyle>
-		   <color>7f003977</color>
+		   <color>7f000000</color>
 		   </PolyStyle>
          </Style>
 
