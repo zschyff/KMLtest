@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
-<Folder><name>Bad</name>
 
 <Style id="exampleStyleDocument">
            <LabelStyle>
@@ -10,6 +9,8 @@
          </Style>
 		 
 		 
+<Folder><name>Bad</name>
+
   <Placemark>
 	<styleUrl>#exampleStyleDocument</styleUrl>
       <MultiGeometry><Polygon><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><altitudeMode>clampToGround</altitudeMode><coordinates>28.018640207406,-26.1927974517257 28.0184840072596,-26.1928154179999 28.018464281219,-26.19267440107 28.0186204819001,-26.1926565155081 28.018640207406,-26.1927974517257</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
